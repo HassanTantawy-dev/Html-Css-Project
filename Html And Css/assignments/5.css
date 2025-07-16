@@ -1,0 +1,33 @@
+.text1{
+    text-shadow: 0.35px 0.35px 0 orangered,
+    0.85px 0.85px 0 rgb(57, 136, 255),
+    1.25px 1.25px 0 purple;
+}
+.one{
+    text-align: center;
+    text-transform: uppercase;    
+}
+.two{
+    text-align: center;
+    text-transform: capitalize;
+}
+.three{
+    text-align: center;
+    text-transform: lowercase;
+}
+.text{
+    background-color: #eee;
+    width: 400px;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text2{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    background-color: rgb(48, 163, 125);
+    color: white;
+    border-bottom: 7px solid rgb(0, 66, 43);
+}

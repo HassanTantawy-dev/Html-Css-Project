@@ -1,0 +1,61 @@
+html{
+    font-size: 20px;
+}
+div{
+    border: solid 2px green;
+    padding: 10px 15px;
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+div p{
+    background-color: #eee;
+    padding: inherit;
+    margin:inherit;
+    border: inherit;
+}
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+    ;
+    
+}
+.text2{
+    font-weight: 700;
+    font-family:"Cairo", sans-serif; 
+    text-transform: capitalize;
+}
+.text3{
+    text-transform: capitalize;
+    font-family: "Cairo", sans-serif ;
+    font-weight: bold;
+    
+    
+}
+.text4,
+.text5,
+.text6{
+    text-transform: capitalize;
+    font-family:"Cairo", sans-serif;
+}
+.text4{
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+.text5{
+    font-size: 2rem;
+}
+.text6{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
