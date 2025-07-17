@@ -1,0 +1,70 @@
+
+.parent{
+    width: 1000px;
+    height: 270px;
+    background-color: #0000000f;
+    margin: auto;
+}
+.test1{
+    background-color: #0000001c ;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 15px;
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: calc((100% - 30px) / 1);
+}
+.test3{
+    background-color: #0000001c ;
+    text-align: center;
+    margin-left: 15px;
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: calc((100% - 60px) / 3);
+    position: relative;
+    top: 15px;
+}
+
+.test2{
+    background-color: #0000001c ;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: calc((100% - 45px) / 2);
+    position: relative;
+    top: 15px;
+}
+.test4{
+    background-color: #0000001c ;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left; 
+    width: calc((100% - 75px) / 4);
+    position: relative;
+    top: 15px;
+}
+p{
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #737373; /* Get The Background From Image */
+  color: black;
+  
+}
+.one{
+    background-color: rgba(0 , 0 , 0 , 0.1);
+}
+.two{
+    opacity: 0.2;
+}
