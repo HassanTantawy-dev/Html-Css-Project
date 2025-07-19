@@ -1,0 +1,135 @@
+div{
+    width: 400px;
+    height: 130px;
+    background-color: #eee;
+    border: solid 2px;
+    border-color: red #0075ff;
+    margin: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.text{
+    width: 350px;
+    position: absolute;
+    left: 75px;
+    top: 55px;
+}
+.top-left{
+    padding: 3px 10px;
+    color: white;
+    background-color: #0075ff;
+    border-right: 2px solid red;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+
+}
+.bottom-left{
+    padding: 3px 10px;
+    color: white;
+    background-color: #0075ff;
+    border-right: 2px solid red;
+    position: absolute;
+    top: 160px;
+    left: 35px;
+    
+}
+.top-right{
+    padding: 3px 10px;
+    color: white;
+    background-color: #0075ff;
+    border-left: 2px solid red;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    
+}
+.bottom-right{
+    padding: 3px 10px;
+    color: white;
+    background-color: #0075ff;
+    border-left: 2px solid red;
+    position: absolute;
+    top: 160px;
+    right: 40px;
+}
+.list1{
+    width: 400px;
+    height: 150px;
+    list-style-position: inside;
+    background-color: #eee;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    
+    
+}
+.a1{
+    width: 330px;
+    padding: 8px;
+    background-color: white;
+    margin-bottom: 5px;
+    position: relative;
+    top: 10px;
+}
+.a2{
+    width: 330px;
+    padding: 8px;
+    background-color: white;
+    margin-bottom: 5px;
+    position: relative;
+    top: 10px;
+}
+.a3{
+    width: 330px;
+    padding: 8px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+}
+.list3{
+     width: 400px;
+    height: 110px;
+    list-style-position: inside;
+    background-color: #eee;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+     margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+table{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+table thead td{
+    background-color: rgba(0, 0, 0, 0.703);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+table td{
+    text-align: center;
+    padding: 10px;
+    border: solid 1px #e2e2e2;
+    background-color: #eee;
+}
+.view{
+    padding: 2px 8px;
+    color: white;
+    background-color: #0095ff;
+}
+.delete{
+    padding: 2px 8px;
+    color: white;
+    background-color: rgb(255, 0, 111)
+}
