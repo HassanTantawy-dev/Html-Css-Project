@@ -1,0 +1,47 @@
+div{
+    width: 500px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 24px;
+    margin: 30px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bbbbbb;
+}
+span{
+    color: white;
+    background-color: red;
+    padding: 15px 10px;
+    position: relative;
+    left: -40px;
+}
+p{
+    width: 500px;
+    height: 40px;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    left: 200px;
+    display: flex;
+    border-left: 7px solid rgb(255, 0, 98);
+}
+p::before{
+    content: "";
+    background-color: white;
+    border-color: transparent  rgb(255, 0, 98) transparent transparent;
+    border-style: solid;
+    border-width: 15px;
+    position: relative;
+    left: -50px;
+}
+p::after{
+    content: attr(data-person);
+    background-color: rgb(200, 200, 200);
+    padding: 15px;
+    position: absolute;
+    left: -150px;
+
+}
