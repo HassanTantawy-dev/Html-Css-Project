@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    font: 20px Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent div{
+    background-color: rgb(3, 162, 133);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    flex-basis: 30px;
+    height: 75px;
+    margin: 10px;
+    align-self: flex-start;
+    order: 2;
+    position: relative;
+    left: 115px;
+   
+}
+.two{
+    flex-basis: 350px;
+    height: 75px;
+    order: -1;
+    margin: 10px;
+    align-self: center;
+}
+.three{
+    flex-basis: 30px;
+    height: 75px;
+    margin: 10px;
+    align-self: flex-end;
+    order: 2;
+}
